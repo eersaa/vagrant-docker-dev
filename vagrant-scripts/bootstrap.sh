@@ -24,5 +24,6 @@ sudo apt-get install -y \
     docker-buildx-plugin \
     docker-compose-plugin
 
+# Following is not recommended for production, because of security reasons
 sudo groupadd docker
 sudo usermod -aG docker vagrant
